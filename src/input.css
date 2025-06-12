@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+.mask-radial-custom {
+  mask-image: radial-gradient(circle at center, #000 45%, transparent 80%);
+  -webkit-mask-image: radial-gradient(
+    circle at center,
+    #000 45%,
+    transparent 80%
+  );
+}
+
+.social-button {
+  @apply my-3 size-12 sm:size-14 rounded-full flex justify-center items-center hover:scale-110 transition-transform duration-300;
+}

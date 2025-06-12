@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <title>Learning Tailwind CSS</title>
+  </head>
+  <body
+    class="text-white font-sans max-w-xl mx-auto border-2 border-gray-800 rounded-lg shadow-lg my-12 min-h-dvh flex flex-col items-center justify-between bg-gradient-to-b from-black via-sky-950 to-gray-800"
+  >
+    <header class="text-white">
+      <img
+        src="assets/img/vdf.jpg"
+        alt="painRompiendola"
+        class="h-96 object-cover mask-radial-custom animate-fade-in"
+      />
+      <header
+        class="text-center flex flex-col justify-center weight-bold -mt-5 z-20"
+      >
+        <span
+          class="text-sky-500 text-xl border border-sky-500 border-double rounded-full shadow-md px-3 flex items-center justify-center mx-auto my-2 py-1 bg-gray-900/45 cursor-crosshair z-10"
+        >
+          @jcarloshsalas
+          <svg
+            class="mx-1 mt-1 pt w-5 h-5 text-sky-400 inline"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </span>
+
+        <h1 class="font-bold leading-tight my-2 text-2xl">
+          José Carlos Hernández Salas
+        </h1>
+      </header>
+      <section class="flex flex-wrap gap-6 justify-center items-center">
+        <!-- Instagram -->
+        <a
+          class="social-button animate-slide-up-fade animate-delay-150 p-3 bg-gradient-to-tr from-yellow-300 via-pink-600 to-purple-600 hover:via-pink-700 hover:to-purple-600"
+          href="https://www.youtube.com/watch?v=R5EXap3vNDA"
+          target="_blank"
+          aria-label="Visit Instagram"
+          title="Follow me on Instagram"
+        >
+          <svg width="100" height="100">
+            <use xlink:href="./assets/sprite.svg#instagram" />
+          </svg>
+        </a>
+
+        <!-- LinkedIn -->
+        <a
+          class="social-button animate-slide-up-fade animate-delay-200 p-4 bg-[#004182] text-white hover:bg-gray-800"
+          href="https://linkedin.com/"
+          target="_blank"
+          aria-label="Visit LinkedIn"
+          title="Connect with me on LinkedIn"
+        >
+          <svg width="100" height="100">
+            <use xlink:href="./assets/sprite.svg#linkedin" />
+          </svg>
+        </a>
+
+        <!-- Facebook -->
+        <a
+          class="social-button animate-slide-up-fade animate-delay-300 p-4 bg-blue-700 hover:bg-blue-900"
+          href="https://facebook.com/"
+          target="_blank"
+          aria-label="Visit Facebook"
+          title="Let's be friends on Facebook"
+        >
+          <svg width="100" height="100">
+            <use xlink:href="./assets/sprite.svg#facebook" />
+          </svg>
+        </a>
+
+        <!-- GitHub -->
+        <a
+          class="social-button animate-slide-up-fade animate-delay-500 p-3 bg-[#24292f] hover:bg-[#1b1f23]"
+          href="https://github.com/"
+          target="_blank"
+          aria-label="Visit GitHub"
+          title="Visit GitHub"
+        >
+          <svg width="100" height="100">
+            <use xlink:href="./assets/sprite.svg#github" />
+          </svg>
+        </a>
+      </section>
+
+      <p class="text-justify text-gray-400 my-3 px-10">
+        Soy Ingeniero en TICS, egresado del Instituto Tecnológico de
+        Aguascalientes, México. Apasionado por la programación, la tecnología y
+        el aprendizaje continuo. Actualmente, me encuentro explorando el mundo
+        de Tailwind CSS para mejorar mis habilidades en desarrollo web. Me
+        encanta compartir mis conocimientos y aprender de la comunidad.
+      </p>
+
+      <div class="font-bold leading-tight mt-4 text-2xl px-10">
+        <h1>Más sobre mí</h1>
+      </div>
+
+      <main class="pt-4 px-4 pb-16">
+        <div class="grid grid-cols-3 grid-rows-2 px-5 gap-2 w-full">
+          <a
+            href=""
+            class="rounded-md overflow-hidden relative transition-colors flex flex-col items-start bg-gradient-to-br from-cyan-700 to-cyan-950 hover:from-cyan-600 hover:to-cyan-950 hover:scale-105 hover:contrast-125 group col-span-2 p-7 min-h-[180px]"
+          >
+            <span
+              class="absolute bottom-2 left-4 font-bold text-xl group-hover:-translate-y-1 transition-transform"
+              >Proyectos</span
+            >
+            <svg
+              class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform opacity-35"
+            >
+              <use xlink:href="./assets/sprite.svg#react" />
+            </svg>
+            <span
+              class="absolute top-3 right-3 text-xs border rounded-xl px-2 py-1"
+              >React</span
+            >
+          </a>
+          <a
+            id="html"
+            href=""
+            class="rounded-md overflow-hidden relative transition-colors flex flex-col items-start bg-gradient-to-br from-orange-500 to-orange-950 hover:from-orange-400 hover:to-orange-950 hover:scale-105 hover:contrast-125 group col-span-1 p-7 min-h-[180px]"
+          >
+            <span
+              class="absolute bottom-2 left-4 font-bold text-xl group-hover:-translate-y-1 transition-transform z-10"
+              >Proyectos</span
+            >
+            <svg
+              class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform opacity-35 "
+            >
+              <use xlink:href="./assets/sprite.svg#html" />
+            </svg>
+            <span
+              class="absolute top-3 right-3 text-xs border rounded-xl px-2 py-1"
+              >HTML</span
+            >
+          </a>
+
+          <a
+            id="css"
+            href=""
+            class="rounded-md overflow-hidden relative transition-colors flex flex-col items-start bg-gradient-to-br from-purple-600 to-zinc-950 hover:from-violet-500 hover:to-zinc-900 hover:scale-105 hover:contrast-125 group col-span-1 p-7 min-h-[180px]"
+          >
+            <span
+              class="absolute bottom-2 left-4 font-bold text-xl group-hover:-translate-y-1 transition-transform z-10"
+              >Proyectos</span
+            >
+            <svg
+              class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform opacity-35"
+            >
+              <use xlink:href="./assets/sprite.svg#css" />
+            </svg>
+            <span
+              class="absolute top-3 right-3 text-xs border rounded-xl px-2 py-1"
+              >CSS</span
+            >
+          <a
+            id="node"
+            href=""
+            class="rounded-md overflow-hidden relative transition-colors flex flex-col items-start bg-gradient-to-br from-green-600 to-gray-900 hover:from-green-500 hover:to-gray-800 hover:scale-105 hover:contrast-125 group col-span-2 p-7 min-h-[180px]"
+          >
+            <span
+              class="absolute bottom-2 left-4 font-bold text-xl group-hover:-translate-y-1 transition-transform"
+              >Proyectos</span
+            >
+            <svg
+              class="absolute -right-4 -bottom-4 -rotate-6 size-28 group-hover:-rotate-12 group-hover:scale-125 transition-transform opacity-35"
+            >
+              <use xlink:href="./assets/sprite.svg#node" />
+            </svg>
+            <span
+              class="absolute top-3 right-3 text-xs border rounded-xl px-2 py-1"
+              >Node</span
+            >
+          </a>
+        </div>
+      </main>
+    </header>
+
+    <footer>
+      <p class="mb-3">&copy; jcarlos.hsalas</p>
+    </footer>
+  </body>
+</html>
