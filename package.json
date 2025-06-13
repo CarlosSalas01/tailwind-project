@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/style.css -o ./dist/output.css",
+    "build:css": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
     "build": "npm run build:css && vite build"
   },
   "keywords": [],
