@@ -2,9 +2,9 @@
 import { defineConfig } from "vite";
 
 export default defineConfig({
-  root: ".", // raíz del proyecto
+  root: "./",
   build: {
-    outDir: "dist", // carpeta de salida
+    outDir: "dist",
     emptyOutDir: true,
   },
 });
