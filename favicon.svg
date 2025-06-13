@@ -1,10 +1,5 @@
-<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
-    <g>
-        <circle fill="#61DAFB" cx="128" cy="128" r="28" />
-        <g stroke="#61DAFB" stroke-width="16" fill="none">
-            <ellipse rx="100" ry="40" cx="128" cy="128" transform="rotate(0 128 128)" />
-            <ellipse rx="100" ry="40" cx="128" cy="128" transform="rotate(60 128 128)" />
-            <ellipse rx="100" ry="40" cx="128" cy="128" transform="rotate(120 128 128)" />
-        </g>
-    </g>
+<svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#61DAFB" fill-rule="evenodd"
+        d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707a1 1 0 00-1.414-1.414L9 11.172l-1.293-1.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+        clip-rule="evenodd" />
 </svg>
